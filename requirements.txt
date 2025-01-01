@@ -4,5 +4,3 @@ pinecone-client
 langchain
 flask
 chromadb
-
--e .
