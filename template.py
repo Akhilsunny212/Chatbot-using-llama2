@@ -17,7 +17,6 @@ list_of_files=[
     "templates/chat.html",
 
 ]
-
 for file in list_of_files:
     filepath=Path(file)
     filedir,filename=os.path.split(filepath)
