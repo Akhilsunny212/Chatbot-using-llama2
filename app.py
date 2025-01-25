@@ -8,7 +8,6 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from src.prompt import *
 
-
 app=Flask(__name__)
 
 persist_directory='db'
