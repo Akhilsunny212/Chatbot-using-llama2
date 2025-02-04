@@ -9,7 +9,6 @@ from langchain.chains import RetrievalQA
 from src.prompt import *
 
 app=Flask(__name__)
-
 persist_directory='db'
 vectordb=Chroma(persist_directory=persist_directory,embedding_function=embedding)
 
