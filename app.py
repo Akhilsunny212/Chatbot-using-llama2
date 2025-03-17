@@ -11,6 +11,7 @@ app=Flask(__name__)
 persist_directory='db'
 vectordb=Chroma(persist_directory=persist_directory,embedding_function=embedding)
 
+
 PROMPT=PromptTemplate(template=prompt_template,input_variables=["context","question"])
 chain_type_kwargs={"prompt":PROMPT}
 
